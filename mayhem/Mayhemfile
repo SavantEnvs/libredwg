@@ -1,0 +1,5 @@
+image: ghcr.io/mayhemheroes/libredwg:latest
+duration: 300
+tasks:
+  - name: llvmfuzz
+    cmd: /llvmfuzz_standalone @@
