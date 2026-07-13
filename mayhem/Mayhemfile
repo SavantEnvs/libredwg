@@ -1,3 +1,5 @@
+project: mayhemheroes/libredwg
+target: llvmfuzz
 image: ghcr.io/mayhemheroes/libredwg:latest
 duration: 300
 tasks:
