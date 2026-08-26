@@ -1,0 +1,8 @@
+project: savantenvs/libredwg
+target: llvmfuzz
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/llvmfuzz/testsuite
+cmds:
+  - cmd: /mayhem/llvmfuzz
+    libfuzzer: true
