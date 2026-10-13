@@ -1,0 +1,8 @@
+autom4te.cache
+GPATH
+GRTAGS
+GTAGS
+*.sig
+*.tar.xz
+doc/*.pdf
+doc/*.PDF
